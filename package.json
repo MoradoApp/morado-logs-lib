@@ -1,8 +1,14 @@
 {
-  "name": "morado-logs-lib",
+  "name": "@moradoapp/morado-logs-lib",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/MoradoApp/morado-logs-lib.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "jest",
     "test:cov": "jest --coverage",
