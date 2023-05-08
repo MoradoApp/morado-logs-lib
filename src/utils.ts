@@ -36,7 +36,7 @@ export const validateMessageProperty = (
     if (typeof logInfo.message === 'object') {
       logInfo.message = JSON.stringify(logInfo.message, null, 2);
     }
-    message = message += `${logInfo.message}`;
+    message = `${message} ${logInfo.message}`;
   }
   return message;
 };
@@ -49,7 +49,7 @@ export const validateContextProperty = (
     if (typeof logInfo.context === 'object') {
       logInfo.context = JSON.stringify(logInfo.context, null, 2);
     }
-    message = message += `${logInfo.context}`;
+    message = `${message} ${logInfo.context}`;
   }
   return message;
 };
@@ -66,7 +66,7 @@ export const validateStackProperty = (
     if (typeof logInfo.stack[0] === 'object') {
       logInfo.stack = JSON.stringify(logInfo.stack, null, 2);
     }
-    message = message += `${logInfo.stack}`;
+    message = `${message} ${logInfo.stack}`;
   }
   return message;
 };
@@ -79,7 +79,7 @@ export const validateValueProperty = (
     if (typeof logInfo.value === 'object') {
       logInfo.value = JSON.stringify(logInfo.value, null, 2);
     }
-    message = message += `${logInfo.value}`;
+    message = `${message} ${logInfo.value}`;
   }
   return message;
 };

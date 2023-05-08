@@ -7,7 +7,7 @@ export default {
     '/test/',
     'jest.config.ts',
     'src/index.ts',
-    'morado-http-lib.module.ts',
+    'morado-logs-lib.module.ts',
   ],
   testMatch: ['**/*.spec.ts'],
   coverageThreshold: {
