@@ -1,8 +1,9 @@
 {
   "name": "@moradoapp/morado-logs-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "url": "https://github.com/MoradoApp/morado-logs-lib.git"
   },
@@ -17,7 +18,7 @@
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "moradoapp",
   "license": "ISC",
   "dependencies": {
     "@nestjs/common": "^9.0.0",
