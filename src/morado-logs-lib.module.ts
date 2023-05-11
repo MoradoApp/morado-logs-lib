@@ -13,4 +13,4 @@ import * as utils from './utils';
   providers: [MoradoLogs, Logger],
   exports: [MoradoLogs],
 })
-export class MoradoLogsLibModule {}
+export class MoradoLogsModule {}
