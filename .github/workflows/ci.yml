@@ -17,6 +17,8 @@ jobs:
         fetch-depth: 0 
     - name: Install dependencies
       run: npm install
+    - name: Install NestJS CLI
+      run: npm i -g @nestjs/cli
     - name: Run build
       run: npm run build
     - name: Run lint
