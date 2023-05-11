@@ -21,6 +21,7 @@ export default {
   moduleDirectories: ['node_modules', 'src'],
   moduleFileExtensions: ['js', 'json', 'ts'],
   testEnvironment: 'node',
+  testResultsProcessor: 'jest-sonar-reporter',
   transform: {
     '^.+\\.(t|j)s$': 'ts-jest',
   },
